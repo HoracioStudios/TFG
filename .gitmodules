@@ -1,0 +1,9 @@
+[submodule "Matchmaking-Server"]
+	path = Matchmaking-Server
+	url = https://github.com/HoracioStudios/Matchmaking-Server
+[submodule "TeFeGe"]
+	path = TeFeGe
+	url = https://github.com/HoracioStudios/TeFeGe
+[submodule "Ranking-Update"]
+	path = Ranking-Update
+	url = https://github.com/HoracioStudios/Ranking-Update
