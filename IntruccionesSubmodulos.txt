@@ -1,0 +1,35 @@
+Actualizar submodulo:
+git submodule foreach git pull origin master
+
+Si no funciona de esa manera (esto resetea los cambios que se hicieran en el motor):
+git submodule foreach git reset --hard
+git submodule update --remote --force
+
+Si con esto da un error de que es muy largo el archivo ir a: Archivos de Programa\Git\etc\gitconfig
+Ahi, id al apartado core y añadir longpaths = true 
+Si no hay ese apartado, copiar y pegar lo de aqui abajo
+
+[core]
+	longpaths = true
+
+
+Comandos utiles:
+git status			Ver los cambios nuevos
+git diff			Comprobar las diferencias entre nuestro submodulo y el proyecto de github
+git submodule update		Deshace los cambios realizados
+
+En caso de querer añadir mas submodulos (el motor ya esta añadido y no hace falta hacer esto)
+Añadir submodulo: git submodule add <link_repositorio>
+
+
+CAMBIOS PARA ACTUALIZACION DE ALGUN SUBMODULO
+-submodulo primero
+	cd path/to/submodule
+	git add <stuff>
+	git commit -m "comment"
+	git push
+-TFG segundo
+	cd /main/project
+	git add path/to/submodule
+	git commit -m "updated my submodule"
+	git push
