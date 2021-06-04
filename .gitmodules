@@ -7,3 +7,6 @@
 [submodule "Ranking-Update"]
 	path = Ranking-Update
 	url = https://github.com/HoracioStudios/Ranking-Update
+[submodule "ClientCommunication"]
+	path = ClientCommunication
+	url = https://github.com/HoracioStudios/ClientCommunication
