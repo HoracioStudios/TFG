@@ -13,3 +13,6 @@
 [submodule "ControlServidoresTeFeGe"]
 	path = ControlServidoresTeFeGe
 	url = https://github.com/HoracioStudios/ControlServidoresTeFeGe
+[submodule "MongoJS"]
+	path = MongoJS
+	url = https://github.com/HoracioStudios/MongoJS
