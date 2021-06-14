@@ -1,5 +1,5 @@
 Actualizar submodulo:
-git submodule foreach git pull origin master
+git submodule foreach git pull origin main
 
 Si no funciona de esa manera (esto resetea los cambios que se hicieran en el motor):
 git submodule foreach git reset --hard

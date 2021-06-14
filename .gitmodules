@@ -10,3 +10,6 @@
 [submodule "ClientCommunication"]
 	path = ClientCommunication
 	url = https://github.com/HoracioStudios/ClientCommunication
+[submodule "ControlServidoresTeFeGe"]
+	path = ControlServidoresTeFeGe
+	url = https://github.com/HoracioStudios/ControlServidoresTeFeGe
